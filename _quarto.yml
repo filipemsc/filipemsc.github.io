@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Filipe Cavalcanti"
+  navbar:
+    background: "#F8F9F9"
+    search: false
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - publications.qmd
+ 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+editor: visual
+

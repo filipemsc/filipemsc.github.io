@@ -1,0 +1,15 @@
+---
+title: "Filipe Cavalcanti"
+---
+
+![](images/profile.jpg){style="float: left; margin-right: 30px;" fig-align="right" width="300"}
+
+Hi! I am an Economist specialized in data analysis and public policy evaluation.
+
+I am a PhD Student at [FGV EESP](https://eesp.fgv.br/).
+
+I work as Research Associate at [J-PAL](https://www.povertyactionlab.org/) and as Consultant to the [Inter-American Development Bank](https://www.iadb.org/).
+
+I am interested in Health Economics and Labor Economics.
+
+**Contact me:** f.matheus.cavalcanti\@gmail.com
