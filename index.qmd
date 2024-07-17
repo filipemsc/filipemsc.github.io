@@ -2,7 +2,7 @@
 title: "Filipe Cavalcanti"
 ---
 
-![](images/profile.jpg){style="float: left; margin-right: 70px;" fig-align="right" width="300"}
+![](images/profile2.jpg){style="float: left; margin-right: 70px;" fig-align="right" width="300"}
 
 Hi! I am an Economist specialized in data analysis and public policy evaluation.
 
