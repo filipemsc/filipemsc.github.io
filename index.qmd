@@ -21,12 +21,12 @@ image: images/profile2.jpg
 
 Hi! I am an Economist specialized in data analysis and public policy evaluation.
 
-I am interested in topics related to applied microeconomics, particularly those related to health and labor economics.  
+I am interested in topics within applied microeconomics, particularly those involving health and labor economics.
 
 I work at [IPEA](https://www.ipea.gov.br/portal/). I am a PhD Student at [FGV EESP](https://eesp.fgv.br/).
 
 Contact me: [filipe.mtsc\@gmail.com](mailto:filipe.mtsc@gmail.com)
 
-Follow me on [Bluesky](https://bsky.app/profile/flp.bsky.social)
+Follow me on [Bluesky](https://bsky.app/profile/flp.bsky.social).
 :::
 :::
