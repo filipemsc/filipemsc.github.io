@@ -1,1 +1,7 @@
 /* css styles */
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+}
