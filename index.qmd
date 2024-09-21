@@ -1,10 +1,12 @@
 ---
-title: "Filipe Cavalcanti"
+title: "Filipe cantiCaval"
 ---
 
 ![](images/profile2.jpg){style="float: left; margin-right: 70px;" fig-align="right" width="300"}
 
 Hi! I am an Economist specialized in data analysis and public policy evaluation.
+
+I am interested in topics related to applied microeconomics, particularly those related to health and labor economics.  
 
 I work at [IPEA](https://www.ipea.gov.br/portal/).
 
