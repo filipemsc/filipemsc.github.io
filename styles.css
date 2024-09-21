@@ -1,7 +1,10 @@
 /* css styles */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .columns {
-    flex-direction: column;
+    display: block;
+  }
+  .column {
+    width: 100% !important;
   }
 }
