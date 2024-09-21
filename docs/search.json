@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Filipe Cavalcanti",
+    "title": "",
     "section": "",
-    "text": "Hi! I am an Economist specialized in data analysis and public policy evaluation.\nI work at IPEA.\nI am a PhD Student at FGV EESP.\nContact me: filipe.mtsc@gmail.com\nFollow me on Bluesky."
+    "text": "Filipe Cavalcanti\nHi! I am an Economist specialized in data analysis and public policy evaluation.\nI am interested in topics related to applied microeconomics, particularly those related to health and labor economics.  \nI work at IPEA. I am a PhD Student at FGV EESP.\nContact me: filipe.mtsc@gmail.com\nFollow me on Bluesky."
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,12 @@
     "title": "Research",
     "section": "",
     "text": "Working papers\nScaling up PrEP: evidence from a policy to prevent HIV in Brazil\nPrEP is a drug that is available in many countries and, if taken frequently, can virtually eliminate the risk of being infected with HIV through sex. However, by reducing the cost of unsafe sex, it might promote risky behavior, increasing the incidence of sexually transmitted infections in a typical moral hazard problem. I analyze the effect of PrEP distribution for free in the public health system in Brazil. I find that PrEP is mainly distributed to high-risk individuals. In a difference-in-differences setting exploring temporal variability in the adoption of the policy by municipalities, I find that PrEP reduced by 7.8% the rate of new cases of HIV. The effect is higher for the groups of men who have sex with men, people aged between 25 to 39 years and people who completed high school. These are the main characteristics of PrEP takers. Additionally, there was no substantial effect on syphilis, while it has helped to reduce new cases of hepatitis. Evidence suggests that this is consistent with better screening of individuals and well targeting of the policy.\n\n\nWork in progress\nBuilding Future-proof Skills for Youth Employment (with Luiz Felipe Fontes and Bruno Ferman) – Pre-results accepted at Journal of Development Economics.\n\n\nTechnical Reports\nEvidence in Labor Market Policies and Implications for Brazil: Job Training Programs (with J-PAL and IADB)\nEvidence in Labor Market Policies and Implications for Brazil: Job Search Assistance (with J-PAL and IADB)\nEvidence in Labor Market Policies and Implications for Brazil: Microcredit (with J-PAL and IADB)\nEvidence in Labor Market Policies and Implications for Brazil: Business Training (with J-PAL and IADB)\nEvidence in Labor Market Policies and Implications for Brazil: Future of work (with J-PAL and IADB)\nEvidence in Labor Market Policies and Implications for Brazil: Informality (with J-PAL and IADB)\nFirearm Violence and Racism (with Instituto Sou da Paz)\n\n\nPrevious research\nThe spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil (with Raul Silveira Neto and Diego Firmino) - Spatial Economic Analysis, 2023\nCOVID-19 and violence against women: current knowledge, gaps, and implications for public policy (with Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus, Noemi Kreif) – World Development, 2024"
+  },
+  {
+    "objectID": "index.html#filipe-cavalcanti",
+    "href": "index.html#filipe-cavalcanti",
+    "title": "Filipe Cavalcanti",
+    "section": "Filipe Cavalcanti",
+    "text": "Filipe Cavalcanti\nHi! I am an Economist specialized in data analysis and public policy evaluation.\nI am interested in topics related to applied microeconomics, particularly those related to health and labor economics.  \nI work at IPEA. I am a PhD Student at FGV EESP.\nContact me: filipe.mtsc@gmail.com\nFollow me on Bluesky."
   }
 ]
