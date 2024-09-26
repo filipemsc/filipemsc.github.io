@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Filipe Cavalcanti"
+  google-analytics: "G-XJLNF5SHSC"
   navbar:
     background: "#F8F9F9"
     search: false

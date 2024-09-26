@@ -3,7 +3,7 @@ title: ""
 image: images/profile2.jpg
 ---
 
-::: columns
+:::::: columns
 ::: {.column width="30%"}
 # 
 
@@ -29,4 +29,4 @@ Contact me: [filipe.mtsc\@gmail.com](mailto:filipe.mtsc@gmail.com)
 
 Follow me on [Bluesky](https://bsky.app/profile/flp.bsky.social).
 :::
-:::
+::::::
