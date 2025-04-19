@@ -6,9 +6,9 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
--   [[**The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil**]{.underline}](https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474) (with [Raul Silveira Neto](https://scholar.google.com.br/citations?user=Sd_8u4IAAAAJ&hl=en) and [Diego Firmino](https://ideas.repec.org/f/pfi233.html)) - **Spatial Economic Analysis**, 2023
+-   [[**The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil**]{.underline}](https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474) (with [Raul Silveira Neto](https://scholar.google.com.br/citations?user=Sd_8u4IAAAAJ&hl=en) and [Diego Firmino](https://ideas.repec.org/f/pfi233.html)) - **Spatial Economic Analysis** (2023)
 
--   [[**COVID-19 and violence against women: current knowledge, gaps, and implications for public policy**]{.underline}](https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796) (with Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus, Noemi Kreif) -- **World Development**, 2024
+-   [[**COVID-19 and violence against women: current knowledge, gaps, and implications for public policy**]{.underline}](https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796) (with Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus, Noemi Kreif) -- **World Development** (2024)
 
 \
 
@@ -16,7 +16,7 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
--   [[**Scaling up PrEP: evidence from a policy to prevent HIV in Brazil**]{.underline}](https://bibliotecadigital.fgv.br/dspace/handle/10438/32015)
+-   [[**Scaling up PrEP: evidence from a policy to prevent HIV in Brazil**]{.underline}](https://bibliotecadigital.fgv.br/dspace/handle/10438/32015), Master thesis (2024)
 
 \
 
@@ -32,11 +32,13 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
--   [[**Evidence in Labor Market Policies and Implications for Brazil: Job Training Programs**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/))
+-   [[**Firearm Violence and Racism**]{.underline}](https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf) (with [Instituto Sou da Paz](https://soudapaz.org/)) (2022)
 
--   [[**Evidence in Labor Market Policies and Implications for Brazil: Job Search Assistance**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/))
+-   [[**Evidence in Labor Market Policies and Implications for Brazil: Job Training Programs**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/)) (2022)
 
--   [[**Evidence in Labor Market Policies and Implications for Brazil: Microcredit**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/))
+-   [[**Evidence in Labor Market Policies and Implications for Brazil: Job Search Assistance**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/)) (2024)
+
+-   [[**Evidence in Labor Market Policies and Implications for Brazil: Microcredit**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en) (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/)) (2024)
 
 -   [**Evidence in Labor Market Policies and Implications for Brazil: Future of work**]{.underline} (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/))
 
@@ -44,7 +46,6 @@ title: "Research"
 
 -   [**Evidence in Labor Market Policies and Implications for Brazil: Informality**]{.underline} (with [J-PAL](https://www.povertyactionlab.org/) and [IADB](https://www.iadb.org/))
 
--   [[**Firearm Violence and Racism**]{.underline}](https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf) (with [Instituto Sou da Paz](https://soudapaz.org/))
 
 \
 
@@ -52,4 +53,4 @@ title: "Research"
 
 ------------------------------------------------------------------------
 
--   [**Assessment of regulatory models for the implementation of Smart Meters in the Brazilian distribution system**](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica) (with [Siglasul](http://www.siglasul.com.br/), [PSR](https://www.psr-inc.com/pt-br/), [ANEEL](https://www.gov.br/aneel/pt-br), and [GIZ](https://www.giz.de/en/worldwide/12055.html)) – [Study 1](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Study 2](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Study 3](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp)
+-   [**Assessment of regulatory models for the implementation of Smart Meters in the Brazilian distribution system**](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica) (with [Siglasul](http://www.siglasul.com.br/), [PSR](https://www.psr-inc.com/pt-br/), [ANEEL](https://www.gov.br/aneel/pt-br), and [GIZ](https://www.giz.de/en/worldwide/12055.html)) – [Study 1](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Study 2](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Study 3](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) (2024)
