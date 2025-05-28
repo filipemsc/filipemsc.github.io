@@ -19,12 +19,12 @@ image: images/profile2.jpg
 ::: {.column width="60%"}
 # Filipe Cavalcanti
 
-Hi! I am an Economist specialized in data analysis and public policy evaluation.
+Olá! Eu sou um economista especializado em análise de dados e avaliação de políticas públicas.
 
-I am interested in topics within applied microeconomics, particularly those involving health and labor economics.
+Tenho interesse em temas dentro da microeconomia aplicada, particularmente aqueles relacionados à economia da saúde e economia do trabalho.
 
-I work at [IPEA](https://www.ipea.gov.br/portal/). I am a PhD Student at [FGV EESP](https://eesp.fgv.br/).
+Trabalho no [IPEA](https://www.ipea.gov.br/portal/) e sou doutorando em economia na [FGV EESP](https://eesp.fgv.br/).
 
-Contact me: [filipe.mtsc\@gmail.com](mailto:filipe.mtsc@gmail.com)
+Contato: [filipe.mtsc\@gmail.com](mailto:filipe.mtsc@gmail.com)
 :::
 ::::::

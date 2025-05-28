@@ -1,68 +1,68 @@
 ---
-title: "About"
+title: "Sobre"
 ---
 
-### Education
+### Educação
 
 ------------------------------------------------------------------------
 
--   **PhD Student in Economics** (2023-2025) <br> Fundação Getúlio Vargas - Escola de Economia de São Paulo
+-   **Doutorado em andamento em economia** (2023-2026) <br> Fundação Getúlio Vargas - Escola de Economia de São Paulo
 
--   **M.A. in Economics** (2020-2022) <br> Fundação Getúlio Vargas - Escola de Economia de São Paulo
+-   **Mestrado em Economia** (2020-2022) <br> Fundação Getúlio Vargas - Escola de Economia de São Paulo
 
--   **B.A. in Economics** (2016-2019) <br> Universidade Federal de Pernambuco
+-   **Bacharel em Economia** (2016-2019) <br> Universidade Federal de Pernambuco
 
 \
 
-### Work Positions
+### Experiência profissional
 
 ------------------------------------------------------------------------
 
--   **Researcher** \@ IPEA\
-    July 2024 - Current
+-   **Técnico em planejamento e pesquisa** no IPEA\
+    Julho 2024 - Atual
 
--   **External Consultant** \@ Siglasul\
-    December 2022 - July 2024
+-   **Consultor externo** no Siglasul\
+    Dezembro 2022 - Julho 2024
 
--   **External Consultant** \@ Inter-American Development Bank\
-    December 2021 - July 2024
+-   **Consultor externo** no Inter-American Development Bank\
+    Dezembro 2021 - Julho 2024
 
--   **Research Associate** \@ J-PAL\
-    December 2021 - July 2024
+-   **Pesquisador associado** no J-PAL\
+    Dezembro 2021 - Julho 2024
 
--   **External Consultant** \@ Instituto Sou da Paz\
-    May 2021 - September 2021
+-   **Consultor externo** no Instituto Sou da Paz\
+    Maio 2021 - Setembro 2021
 
 \
 
-### Academic Positions
+### Posições acadêmicas
 
 ------------------------------------------------------------------------
 
--   Research Assistant \@ Fundação Getúlio Vargas EAESP  (Oct. 2022 - Dec. 2023)
+-   **Assistente de pesquisa** na Fundação Getúlio Vargas EAESP  (Out. 2022 - Dez. 2023)
 
--   Research Assistant \@ Fundação Getúlio Vargas EESP  (Mar. 2021 - May. 2021)
+-   **Assistente de pesquisa** na Fundação Getúlio Vargas EESP  (Mar. 2021 - Mai. 2021)
 
--   Research Assistant \@ Fundação Instituto de Pesquisas Econômicas (Jan. 2021 - Oct. 2021)
+-   **Assistente de pesquisa** na Fundação Instituto de Pesquisas Econômicas (Jan. 2021 - Out. 2021)
 
--   Junior Researcher \@ PET Economia UFPE (May 2016 - Dec. 2019)
+-   **Pesquisador Bolsista** no PET Economia UFPE (Mai. 2016 - Dez. 2019)
 
 \
 
-### TA positions
+### Monitorias
 
 ------------------------------------------------------------------------
 
--   Linear Algebra \@ UFPE (2018, Undergraduate level)
+-   **Elementos de Matemática 2** (Álgebra Linear) na UFPE (2018, graduação)
 
--   Optimization \@ UFPE (2018, Undergraduate level)
+-   **Elementos de Matemática 1** (Otimização) na UFPE (2018, graduação)
 
--   Calculus I \@ UFPE (2019, Undergraduate level)
+-   **Cálculo I** na UFPE (2019, graduação)
 
--   Statistics \@ FGV EESP (2020, Undergraduate level)
+-   **Estatística** na FGV EESP (2020, graduação)
 
--   Microeconomics II \@ FGV EESP (2021, Graduate level)
+-   **Microeconomia II** na FGV EESP (2021, mestrado)
 
--   Microeconometrics II \@ FGV EESP (2021, Graduate level)
+-   **Microeconometrics II** na FGV EESP (2021, mestrado)
 
 ###
