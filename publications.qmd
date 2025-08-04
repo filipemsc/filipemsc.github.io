@@ -6,7 +6,7 @@ title: "Pesquisa"
 
 ------------------------------------------------------------------------
 
--   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Sulpino) - **Texto para discussão - Ipea** (2025)
+-   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) - **Texto para discussão - Ipea** (2025)
 
 -   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) - **Texto para discussão - Ipea** (2025)
 
@@ -32,7 +32,7 @@ title: "Pesquisa"
 
 -   [**Boletim de Mercado de Trabalho: a inserção de pessoas trans no assalariamento formal**]{.underline} (com Alberto Filho e Felipe Pateo)
 
--   [**Boletim de políticas sociais: Saúde**]{.underline} (com Fabiola Sulpino, Liliane Bernardes e Sérgio Piola)\
+-   [**Boletim de políticas sociais: Saúde**]{.underline} (com Fabiola Vieira, Liliane Bernardes e Sérgio Piola)\
 
 ### Outros
 
