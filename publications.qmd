@@ -16,7 +16,7 @@ title: "Pesquisa"
 
 -   [[**The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil**]{.underline}](https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474) (com Raul Silveira Neto e Diego Firmino) -- **Spatial Economic Analysis** (2023)
 
--   [[**Scaling up PrEP: evidence from a policy to prevent HIV in Brazil**]{.underline}](https://bibliotecadigital.fgv.br/dspace/handle/10438/32015) -- **tese de mestrado - FGV EESP** (2022)
+-   [[**Scaling up PrEP: evidence from a policy to prevent HIV in Brazil**]{.underline}](https://bibliotecadigital.fgv.br/dspace/handle/10438/32015) -- **Dissertação de mestrado - FGV EESP** (2022)
 
 \
 
@@ -24,7 +24,7 @@ title: "Pesquisa"
 
 ------------------------------------------------------------------------
 
--   [[**Building Future-proof Skills for Youth Employment**]{.underline}](https://www.dropbox.com/scl/fi/j4c1dlpffdeg75s94er88/pap_online_version.pdf?rlkey=a3z5ujd1hb91icbqm41dswerx&dl=0) (com Luiz Felipe Fontes e Bruno Ferman) -- Pre-results accepted at **Journal of Development Economics.**
+-   [[**Building Future-proof Skills for Youth Employment**]{.underline}](https://www.dropbox.com/scl/fi/j4c1dlpffdeg75s94er88/pap_online_version.pdf?rlkey=a3z5ujd1hb91icbqm41dswerx&dl=0) (com Luiz Felipe Fontes e Bruno Ferman) -- Pre-results accepted at **Journal of Development Economics**
 
 -   [[**Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/197a02cc-fe09-4754-8319-a679de139c0a) -- **Texto para discussão - Ipea** (2025)\
     Cobertura: [UOL](https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm)
