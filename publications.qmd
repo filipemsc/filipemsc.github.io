@@ -6,9 +6,13 @@ title: "Pesquisa"
 
 ------------------------------------------------------------------------
 
+-   [[**A inserção e as características das pessoas trans no assalariamento formal**]{.underline}](https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content) (com Alberto Filho e Felipe Pateo) -- **Boletim de Mercado de Trabalho - Ipea** (2025)\
+    Cobertura: [O Globo](https://www.google.com/url?rct=j&sa=t&url=https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml&ct=ga&cd=CAEYACoTODcxMTQwMzc5NjUxMDIxMTk0MjIaMzc0ZTcxNGU0ZDVmZDljMjpjb206cHQ6VVM&usg=AOvVaw2tEUQImRNjNTLN_svDBmKJ), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](https://www.google.com/url?rct=j&sa=t&url=https://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal&ct=ga&cd=CAEYBCoTNzI4MzY5ODg2NzQwMzQ1NTM2MzIdZGY3ZjYwYTc3YmQzMGI1OTpjb20uYnI6cHQ6QlI&usg=AOvVaw2hOtJKpoXUGgmSAPmh88RT), [TV Brasil](https://www.youtube.com/live/6pLWzPUACaI?si=y58db6CoGE_m-IPr&t=2027)
+
 -   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) -- **Texto para discussão - Ipea** (2025)
 
--   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Texto para discussão - Ipea** (2025)
+-   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Texto para discussão - Ipea** (2025)\
+    Cobertura: [Conass](https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/), [Agência Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios)
 
 -   [[**Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)**]{.underline}](https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Publicação conjunta Ipea, Conass e Conasems** (2025)
 
@@ -30,8 +34,6 @@ title: "Pesquisa"
     Cobertura: [UOL](https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm)
 
 -   [**A representação de pessoas trans nas bases de dados oficiais do Brasil**]{.underline} (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
-
--   [**A inserção de pessoas trans no assalariamento formal**]{.underline} (com Alberto Filho e Felipe Pateo) -- **Boletim de mercado de trabalho - Ipea** (2025)
 
 -   [**Boletim de políticas sociais: Saúde**]{.underline} (com Fabiola Vieira, Liliane Bernardes e Sérgio Piola) - **Ipea** (2025)\
 
