@@ -7,7 +7,7 @@ title: "Pesquisa"
 ------------------------------------------------------------------------
 
 -   [[**A inserção e as características das pessoas trans no assalariamento formal**]{.underline}](https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content) (com Alberto Filho e Felipe Pateo) -- **Boletim de Mercado de Trabalho - Ipea** (2025)\
-    Cobertura: [O Globo](https://www.google.com/url?rct=j&sa=t&url=https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml&ct=ga&cd=CAEYACoTODcxMTQwMzc5NjUxMDIxMTk0MjIaMzc0ZTcxNGU0ZDVmZDljMjpjb206cHQ6VVM&usg=AOvVaw2tEUQImRNjNTLN_svDBmKJ), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](https://www.google.com/url?rct=j&sa=t&url=https://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal&ct=ga&cd=CAEYBCoTNzI4MzY5ODg2NzQwMzQ1NTM2MzIdZGY3ZjYwYTc3YmQzMGI1OTpjb20uYnI6cHQ6QlI&usg=AOvVaw2hOtJKpoXUGgmSAPmh88RT), [TV Brasil](https://www.youtube.com/live/6pLWzPUACaI?si=y58db6CoGE_m-IPr&t=2027)
+    Cobertura: [Estado de S. Paulo](https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/), [O Globo](https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal)
 
 -   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) -- **Texto para discussão - Ipea** (2025)
 
@@ -53,7 +53,7 @@ title: "Pesquisa"
 
 -   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
 
--   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
+-   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
 
 -   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Treinamento ao empreendedorismo**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
 
