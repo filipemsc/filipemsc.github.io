@@ -21,7 +21,7 @@ body {
 
 /* Linha inferior (horizontal) no container do sidebar */
 nav.navbar {
-  background-color: #fff !important;   /* força branco */
+  background-color: #f8f8f8af !important;   /* força branco */
   background-image: none !important;   /* remove qualquer gradiente do tema */
   border-bottom: 1px solid var(--bs-border-color); /* a linha embaixo */
 }
@@ -34,4 +34,8 @@ nav.navbar .nav-link:hover,
 nav.navbar .nav-link:focus,
 nav.navbar .nav-link.active {
   color: var(--bs-navbar-hover-color) !important;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: #f5f5f5;
 }
