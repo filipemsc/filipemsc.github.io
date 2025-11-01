@@ -13,7 +13,6 @@ website:
         text: Home
       - about.qmd
       - publications.qmd
-      - blog.qmd
  
 
 format:
