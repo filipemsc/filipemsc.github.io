@@ -7,9 +7,13 @@ title-block-banner: true
 
 ------------------------------------------------------------------------
 
+-   [[**A inserção e as características das pessoas trans no assalariamento formal**]{.underline}](https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content) (com Alberto Filho e Felipe Pateo) -- **Boletim de Mercado de Trabalho - Ipea** (2025)\
+    Cobertura: [Estado de S. Paulo](https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/), [O Globo](https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal)
+
 -   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) -- **Texto para discussão - Ipea** (2025)
 
--   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Texto para discussão - Ipea** (2025)
+-   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Texto para discussão - Ipea** (2025)\
+    Cobertura: [Conass](https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/), [Agência Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios)
 
 -   [[**Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)**]{.underline}](https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Publicação conjunta Ipea, Conass e Conasems** (2025)
 
@@ -32,8 +36,6 @@ title-block-banner: true
 
 -   [**A representação de pessoas trans nas bases de dados oficiais do Brasil**]{.underline} (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
 
--   [**A inserção de pessoas trans no assalariamento formal**]{.underline} (com Alberto Filho e Felipe Pateo) -- **Boletim de mercado de trabalho - Ipea** (2025)
-
 -   [**Boletim de políticas sociais: Saúde**]{.underline} (com Fabiola Vieira, Liliane Bernardes e Sérgio Piola) - **Ipea** (2025)\
 
 ### Outros
@@ -50,8 +52,9 @@ title-block-banner: true
 
 -   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2024)
 
--   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
+-   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
+
+-   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
 
 -   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Treinamento ao empreendedorismo**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
 
--   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
