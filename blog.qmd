@@ -1,0 +1,16 @@
+---
+title: Blog
+listing:
+  sort: "date desc"
+  contents: "blog/*/index.qmd"
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  feed: false
+page-layout: full
+title-block-banner: true
+search: false
+format:
+  html:
+    css: blog-list.css
+---

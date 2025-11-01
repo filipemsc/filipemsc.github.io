@@ -13,6 +13,7 @@ website:
         text: Home
       - about.qmd
       - publications.qmd
+      - blog.qmd
  
 
 format:
@@ -21,5 +22,11 @@ format:
     css: styles.css
     toc: false
 
+lang: pt-BR
+language:
+  title-block-author-single: "Autor"
+  title-block-author-plural: "Autores"
+  title-block-published: "Publicado em"
+  
 editor: visual
 

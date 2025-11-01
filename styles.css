@@ -8,3 +8,30 @@
     width: 100% !important;
   }
 }
+
+body {
+  background-color: #fff;
+}
+
+/* Ajustes globais do sidebar via CSS vars do Quarto */
+:root {
+  --bs-navbar-color: #111;     
+  --bs-navbar-hover-color: #0d6efd;
+}
+
+/* Linha inferior (horizontal) no container do sidebar */
+nav.navbar {
+  background-color: #fff !important;   /* força branco */
+  background-image: none !important;   /* remove qualquer gradiente do tema */
+  border-bottom: 1px solid var(--bs-border-color); /* a linha embaixo */
+}
+
+nav.navbar .nav-link {
+  color: var(--bs-navbar-color) !important;
+  opacity: 1 !important;
+}
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link:focus,
+nav.navbar .nav-link.active {
+  color: var(--bs-navbar-hover-color) !important;
+}

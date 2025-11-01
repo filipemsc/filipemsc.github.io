@@ -1,0 +1,157 @@
+---
+title: 'Emendas parlamentares: evolução normativa'
+subtitle: Do orçamento autorizativo ao impositivo -- marcos legais, decisões judiciais e seus efeitos
+description: "" 
+categories:
+  - Emendas
+author: Filipe Cavalcanti
+date: 09/20/2025
+title-block-banner: true
+bibliography: references.bib
+csl: https://www.zotero.org/styles/chest
+---
+
+As emendas parlamentares – propostas de alteração do orçamento anual feitas por deputados e senadores – passaram por significativas transformações normativas no Brasil desde a Constituição Federal de 1988. Originalmente, a Lei Orçamentária Anual (LOA) tinha caráter meramente autorizativo, ou seja, o Executivo não era juridicamente obrigado a executar as despesas aprovadas pelo Legislativo. Nesse contexto, o Poder Executivo detinha ampla discricionariedade na execução orçamentária, podendo vetar despesas ou contingenciar verbas e, assim, usar as emendas como moeda de barganha política junto ao Congresso.
+
+Nos últimos anos, porém, uma série de mudanças constitucionais – aliada a decisões do Supremo Tribunal Federal (STF) – alterou esse cenário, instituindo a execução obrigatória de determinadas emendas e impactando a dinâmica entre Executivo e Legislativo no processo orçamentário. Este artigo analisa em detalhe a evolução normativa das emendas parlamentares federais no Brasil, destacando os principais marcos legais e julgados do STF que influenciaram sua aplicação, bem como as consequências dessas mudanças para o equilíbrio de poder entre os dois Poderes.
+
+## Linha do tempo
+```{=html}
+<style>
+:root { --tl-line:#dee2e6; --tl-dot:#0d6efd; --tl-muted:#6c757d; --tl-pad-left:1.75rem; --tl-spine-left:.6rem; --year-bg:#f8f9fa; }
+.timeline{position:relative;margin:1rem 0 3rem 0;padding-left:var(--tl-pad-left)}
+.timeline::before{content:"";position:absolute;left:var(--tl-spine-left);top:0;bottom:0;width:3px;background:var(--tl-line);border-radius:2px}
+.timeline .event{position:relative;margin-bottom:1.25rem}
+.timeline .event::before{content:"";position:absolute;left:calc(var(--tl-spine-left) - var(--tl-pad-left));top:.95rem;width:.9rem;height:.9rem;background:var(--tl-dot);border:3px solid #fff;box-shadow:0 0 0 2px var(--tl-line);border-radius:50%}
+.timeline .date{display:inline-block;font-weight:800;font-variant-numeric:tabular-nums;font-size:1.1rem;background:var(--year-bg);border:1px solid var(--tl-line);border-radius:.5rem;padding:.25rem .6rem;margin:0 0 -.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.timeline .badge-lite{display:none!important}
+.timeline .card{border:1px solid var(--tl-line);border-radius:.5rem}
+.timeline .card-body{padding:1rem 1rem 1rem 1rem}
+.timeline .card-title{margin:0 0 .25rem 0}
+/* empurra conteúdo um tiquinho para a direita sem deslocar o ponto */
+:root { --tl-gap: .35rem; }
+.timeline .card-body > *:first-child{ margin-top: 0; }
+.timeline .card-body > *:last-child{ margin-bottom: 0; }
+</style>
+``` 
+
+::: {.timeline}
+
+::: {.event}
+[1988]{.date}
+
+::: {.card}
+::: {.card-body}
+Emendas ao PLOA/LOA admitidas, sem execução impositiva. 
+:::
+:::
+:::
+
+::: {.event}
+[2014]{.date}
+
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2014**, houve a criação da obrigatoriedade de execução das EP individuais (RP 6) no limite de 1,2% da RCL prevista vinculando metade à saúde nesse ano.
+:::
+:::
+:::
+
+::: {.event}
+[2015]{.date}
+
+::: {.card}
+::: {.card-body}
+A **Emenda Constitucional nº 86/2015** torna obrigatória a execução das EP individuais (RP 6) no limite de 1,2% da RCL prevista vinculando metade a ações e serviços públicos de saúde, passando a valer para todos os anos seguintes.
+:::
+:::
+:::
+
+::: {.event}
+[2016]{.date}
+
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2016**, foi determinada a obrigatoriedade de execução empenho e o pagamento das emendas de bancada em limite correspondente a 0,6% da receita corrente líquida realizada no exercício de 2015.
+:::
+:::
+:::
+
+::: {.event}
+[2017]{.date}
+
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2017**, foi determinada a obrigatoriedade de execução empenho e o pagamento das emendas de bancada em limite correspondente a 0,6% da receita corrente líquida realizada no exercício de 2016.
+:::
+:::
+:::
+
+::: {.event}
+[2018]{.date}
+
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2018**, foi determinada a obrigatoriedade de execução empenho e o pagamento das emendas de bancada, sem fixação de limite.
+:::
+:::
+:::
+
+::: {.event}
+[2019]{.date}
+
+::: {.card}
+::: {.card-body}
+- A **Emenda Constitucional nº 100/2019** estende a obrigatoriedade de execução para as emendas parlamentares de bancada (RP 7).
+- A **Emenda Constitucional nº 105/2019** cria a modalidade de emenda individual por transferência especial (“emendas pix”).
+- A **Lei nº 13.957/2019** cria os resultados primários das emendas parlamentares de comissão (RP 8) e de relator-geral (RP 9).
+:::
+:::
+:::
+
+::: {.event}
+[2022]{.date}
+
+::: {.card}
+::: {.card-body}
+
+- A **Emenda Constitucional nº 126/2022** modifica o limite das emendas parlamentares individuais obrigatórias para **2% da RCL do ano anterior**.
+
+- No contexto da **Arguição de Descumprimento de Preceito Fundamental (ADPF) 854**, o Supremo Tribunal Federal (STF) determina que as emendas de relator só poderão ser usadas para recompor o Orçamento.
+:::
+:::
+:::
+
+::: {.event}
+[2023]{.date}
+
+::: {.card}
+::: {.card-body}
+- Diante da proibição das emendas de relator, ministérios editam portarias para executar o montante que havia sido separado para essas despesas como **despesas discricionárias**.
+:::
+:::
+:::
+
+::: {.event}
+[2024]{.date}
+
+::: {.card}
+::: {.card-body}
+No contexto da **ADPF 854**, o STF determina:
+
+- O esclarecimento acerca de quais deputados e senadores fizeram solicitações de recursos via emenda de relator em 2020 e 2021 (STF, 2024c).
+
+- Que as emendas de bancada e relator somente sejam executadas mediante **prévia transparência e rastreabilidade** (STF, 2024d).
+
+- Que as organizações não governamentais (ONGs) e demais entidades do terceiro setor informem, em seus portais na internet, os valores recebidos oriundos de EPs (STF, 2024d).
+
+- Que a liberação das emendas realizadas via transferência especial (“emendas Pix”) seja obrigatoriamente precedida de **apresentação e aprovação prévia de plano de trabalho** (STF, 2024a).
+
+- Que a execução das emendas de saúde seja expressamente referida nos Planos Anuais de Saúde (PAS) e nos Relatórios Anuais de Gestão (RAG), que são instrumentos de planejamento e prestação de contas do SUS obrigatórios a todos os entes (STF, 2024a).
+
+- Que a movimentação dos recursos de EPs de saúde seja realizada em contas específicas por tipo de emenda [@brasilEmendaConstitucionalNo2019] 
+:::
+:::
+:::
+
+:::

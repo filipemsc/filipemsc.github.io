@@ -1,0 +1,54 @@
+/* Esconde thumbnails/imagens do listing (lista e cards) */
+.quarto-listing .listing-image,
+.quarto-grid .card .card-img-top,
+.quarto-grid .listing-image,
+.listing .listing-image {
+  display: none !important;
+}
+
+/* Se tiver imagens dentro do resumo/excerpt, esconde também */
+.quarto-listing .listing-item img {
+  display: none !important;
+}
+
+/* Remove espaços reservados para a imagem no layout em lista */
+.quarto-listing .listing-item .listing-content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Oculta o resumo na listagem em layout de lista (padrão) */
+.quarto-listing .listing-description { 
+  display: none !important;
+}
+
+/* Oculta o resumo na listagem em layout de cards/grid */
+.quarto-listing .card-text {
+  display: none !important;
+}
+
+/* (Opcional) remove qualquer bloco de texto truncado usado como resumo */
+.quarto-listing .truncate-multiline,
+.quarto-listing .listing-item .description {
+  display: none !important;
+}
+
+body .quarto-listing .quarto-post {
+  padding-bottom: 1rem !important;   /* antes da linha */
+  margin-bottom: 0 !important;
+}
+
+/* 2) Mais espaço ao redor da linha separadora */
+body .quarto-listing hr.quarto-post-divider,
+body .quarto-listing hr.quarto-listing-separator,
+body .quarto-listing .listing-separator {
+  margin-top: 1rem !important;       /* entre texto e linha */
+  margin-bottom: 2rem !important;    /* entre a linha e o próximo post */
+  border-top: 1px solid #d5d5d5;     /* opcional: reforçar a linha */
+}
+
+/* 3) Cobrir variações de markup (alguns temas usam .listing-item) */
+body .quarto-listing .list .listing-item,
+body .quarto-listing .list .quarto-post {
+  margin-bottom: 2rem !important;    /* respiro extra entre itens */
+}

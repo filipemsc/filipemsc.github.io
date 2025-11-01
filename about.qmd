@@ -1,5 +1,6 @@
 ---
 title: "Sobre"
+title-block-banner: true
 ---
 
 ### Educação

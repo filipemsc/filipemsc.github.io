@@ -1,0 +1,162 @@
+---
+title: "Emendas parlamentares: evolução normativa"
+format:
+  html:
+    theme: cosmo
+bibliography: references.bib
+csl: https://www.zotero.org/styles/chest
+title-block-banner: true
+---
+
+<!-- CSS: idêntico ao seu, só movido para dentro do .qmd -->
+<style>
+:root { --tl-line:#dee2e6; --tl-dot:#0d6efd; --tl-muted:#6c757d; --tl-pad-left:1.75rem; --tl-spine-left:.6rem; --year-bg:#f8f9fa; }
+.timeline{position:relative;margin:1rem 0 3rem 0;padding-left:var(--tl-pad-left)}
+.timeline::before{content:"";position:absolute;left:var(--tl-spine-left);top:0;bottom:0;width:3px;background:var(--tl-line);border-radius:2px}
+.timeline .event{position:relative;margin-bottom:1.25rem}
+.timeline .event::before{content:"";position:absolute;left:calc(var(--tl-spine-left) - var(--tl-pad-left));top:.95rem;width:.9rem;height:.9rem;background:var(--tl-dot);border:3px solid #fff;box-shadow:0 0 0 2px var(--tl-line);border-radius:50%}
+.timeline .date{display:inline-block;font-weight:800;font-variant-numeric:tabular-nums;font-size:1.1rem;background:var(--year-bg);border:1px solid var(--tl-line);border-radius:.5rem;padding:.25rem .6rem;margin:0 0 -.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.timeline .badge-lite{display:none!important}
+.timeline .card{border:1px solid var(--tl-line);border-radius:.5rem}
+.timeline .card-body{padding:1rem}
+.timeline .card-title{margin:0 0 .25rem 0}
+/* empurra conteúdo um tiquinho para a direita sem deslocar o ponto */
+:root { --tl-gap: .35rem; }            /* ajuste fino: tente .3–.5rem */
+
+
+</style>
+
+# Emendas parlamentares: evolução normativa
+
+::: {.timeline}
+
+::: {.event}
+
+[1988]{.date}
+
+::: {.card}
+::: {.card-body}
+#### CF/88 — Processo orçamentário
+Emendas ao PLOA/LOA admitidas, sem execução impositiva.
+:::
+:::
+:::
+
+::: {.event}
+[2014]{.date}
+
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2014**, criou-se a obrigatoriedade de execução das EP individuais (RP 6) no limite de 1,2% da RCL prevista, vinculando metade à saúde nesse ano.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2015
+:::
+::: {.card}
+::: {.card-body}
+A **Emenda Constitucional nº 86/2015** torna obrigatória a execução das EP individuais (RP 6) no limite de 1,2% da RCL prevista, vinculando metade a ações e serviços públicos de saúde, passando a valer para os anos seguintes.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2016
+:::
+::: {.card}
+::: {.card-body}
+Por força da **Lei de Diretrizes Orçamentárias de 2016**, determinou-se a obrigatoriedade de empenho e pagamento das emendas de bancada até **0,6% da RCL realizada em 2015**.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2017
+:::
+::: {.card}
+::: {.card-body}
+Por força da **LDO 2017**, manteve-se a obrigatoriedade de empenho e pagamento das emendas de bancada até **0,6% da RCL realizada em 2016**.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2018
+:::
+::: {.card}
+::: {.card-body}
+A **LDO 2018** determinou a obrigatoriedade de execução das emendas de bancada, **sem fixação de limite**.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2019
+:::
+::: {.card}
+::: {.card-body}
+- A **EC nº 100/2019** estende a obrigatoriedade de execução para as emendas de bancada (RP 7).
+- A **EC nº 105/2019** cria a modalidade de emenda individual por **transferência especial** (“emendas Pix”).
+- A **Lei nº 13.957/2019** cria os resultados primários das emendas de **comissão (RP 8)** e de **relator-geral (RP 9)**.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2022
+:::
+::: {.card}
+::: {.card-body}
+- A **EC nº 126/2022** eleva o limite das emendas individuais obrigatórias para **2% da RCL do ano anterior**.
+- No contexto da **ADPF 854**, o STF determina que as emendas de relator só poderão ser usadas para recompor o Orçamento.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2023
+:::
+::: {.card}
+::: {.card-body}
+Diante da proibição das emendas de relator, ministérios editaram portarias para executar o montante então reservado a RP 9 como **despesa discricionária**.
+:::
+:::
+:::
+
+::: {.event}
+::: {.date}
+2024
+:::
+::: {.card}
+::: {.card-body}
+No contexto da **ADPF 854**, o STF determina:
+
+- Esclarecimento de quais deputados e senadores fizeram solicitações via emenda de relator em 2020–2021 (STF, 2024c).
+
+- Que **emendas de bancada** e **de relator** só sejam executadas com **transparência e rastreabilidade** prévias (STF, 2024d).
+
+- Que **ONGs** e entidades do terceiro setor publiquem, em seus portais, os valores recebidos de EPs (STF, 2024d).
+
+- Que as **transferências especiais** (“emendas Pix”) sejam precedidas de **plano de trabalho aprovado** (STF, 2024a).
+
+- Que a execução das **emendas de saúde** conste na **PAS** e no **RAG** do SUS (STF, 2024a).
+
+- Que a movimentação dos recursos de EPs de saúde ocorra em **contas específicas por tipo de emenda** [@brasilEmendaConstitucionalNo2019]. 
+[^teste]
+:::
+:::
+:::
+
+:::
+<!-- fecha .timeline -->
+
+[^teste]: Texto de exemplo da nota de rodapé. Substitua pelo conteúdo real.

@@ -1,5 +1,6 @@
 ---
 title: "Pesquisa"
+title-block-banner: true
 ---
 
 ### Publicações
