@@ -8,7 +8,7 @@ title-block-banner: true
 ------------------------------------------------------------------------
 
 -   [[**A inserção e as características das pessoas trans no assalariamento formal**]{.underline}](https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content) (com Alberto Filho e Felipe Pateo) -- **Boletim de Mercado de Trabalho - Ipea** (2025)\
-    Cobertura: [Estado de S. Paulo](https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/), [O Globo](https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal)
+    Cobertura: [Estado de Minas](https://www.em.com.br/economia/2025/11/7283807-apenas-25-das-pessoas-trans-tem-emprego-formal.html), [Estado de S. Paulo](https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/), [O Globo](https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal)
 
 -   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) -- **Texto para discussão - Ipea** (2025)
 
@@ -57,4 +57,3 @@ title-block-banner: true
 -   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
 
 -   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Treinamento ao empreendedorismo**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
-
