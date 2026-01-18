@@ -60,6 +60,6 @@ title-block-banner: true
 
 -   [[**Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)**]{.underline}](https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Publicação conjunta Ipea, Conass e Conasems** (2025)
 
--   [[**Identidades invisíveis? O dilema da (in) visibilidade estatística da população trans**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
+-   [[**Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
 
--   [[**A Representação de pessoas trans nas bases de dados oficiais do Brasil**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
+-   [[**A representação de pessoas trans nas bases de dados oficiais do Brasil**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
