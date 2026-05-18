@@ -228,7 +228,8 @@ img {
   align-items: start;
   display: grid;
   gap: clamp(1.8rem, 4vw, 3rem);
-  grid-template-columns: minmax(0, 1.65fr) minmax(220px, 280px);
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1.65fr);
+  grid-template-areas: "media content";
 }
 
 .home-hero__content h1,
@@ -236,6 +237,10 @@ img {
   color: var(--site-text);
   margin-top: 0;
   text-align: left;
+}
+
+.home-hero__content {
+  grid-area: content;
 }
 
 .home-hero__name {
@@ -306,7 +311,8 @@ img {
 }
 
 .home-hero__media {
-  justify-self: end;
+  grid-area: media;
+  justify-self: start;
 }
 
 .home-hero__media p,
@@ -353,11 +359,13 @@ img {
 
   .home-hero {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "media"
+      "content";
   }
 
   .home-hero__media {
     justify-self: start;
-    order: -1;
   }
 }
 
