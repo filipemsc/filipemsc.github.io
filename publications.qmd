@@ -1,64 +1,143 @@
 ---
 title: "Publicações"
+listing:
+  id: publications-listing
+  contents:
+    - publications-data.yml
+  template: _publication-listing.ejs.md
+  sort: "year desc"
+  sort-ui: false
+  filter-ui: false
+  field-types:
+    year: number
 ---
 
-### Publicações
+```{=html}
+<div class="pub-filters" aria-label="Filtros de publicações">
+  <div class="pub-filters__group">
+    <label for="pub-year-filter">Ano</label>
+    <select id="pub-year-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
 
-------------------------------------------------------------------------
+  <div class="pub-filters__group">
+    <label for="pub-theme-filter">Tema</label>
+    <select id="pub-theme-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
 
--   [[**Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/4631087b-cd50-4951-866e-7882e15be14d) -- **Texto para discussão - Ipea** (2025)\
-    Cobertura: [UOL](https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm)
+  <div class="pub-filters__group">
+    <label for="pub-subtheme-filter">Subtema</label>
+    <select id="pub-subtheme-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
 
--   [[**A inserção e as características das pessoas trans no assalariamento formal**]{.underline}](https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content) (com Alberto Filho e Felipe Pateo) -- **Boletim de Mercado de Trabalho - Ipea** (2025)\
-    Cobertura: [Estado de Minas](https://www.em.com.br/economia/2025/11/7283807-apenas-25-das-pessoas-trans-tem-emprego-formal.html), [Estado de S. Paulo](https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/), [O Globo](https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml), [O Povo](https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html), [IstoÉ Dinheiro](ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal), [Folha de São Paulo](https://www1.folha.uol.com.br/amp/mercado/2026/02/tst-cria-cotas-para-mulheres-trans-em-vagas-de-empresas-prestadoras-de-servicos.shtml)
+  <p class="pub-filters__status" id="pub-filters-status" aria-live="polite"></p>
+</div>
 
--   [[**Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)**]{.underline}](https://repositorio.ipea.gov.br/handle/11058/17238) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Texto para discussão - Ipea** (2025)\
-    Cobertura: [Conass](https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/), [Agência Brasil](https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios)
+<p class="pub-empty-state" id="pub-empty-state" hidden>Nenhum item corresponde aos filtros selecionados.</p>
+```
 
--   [[**COVID-19 and violence against women: current knowledge, gaps, and implications for public policy**]{.underline}](https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796) (com Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus, e Noemi Kreif) -- **World Development** (2024)
+::: {#publications-listing}
+:::
 
--   [[**The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil**]{.underline}](https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474) (com Raul Silveira Neto e Diego Firmino) -- **Spatial Economic Analysis** (2023)
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const items = Array.from(document.querySelectorAll(".pub-item"));
+  const groups = Array.from(document.querySelectorAll(".pub-year-group"));
+  const yearFilter = document.getElementById("pub-year-filter");
+  const themeFilter = document.getElementById("pub-theme-filter");
+  const subthemeFilter = document.getElementById("pub-subtheme-filter");
+  const status = document.getElementById("pub-filters-status");
+  const emptyState = document.getElementById("pub-empty-state");
 
--   [[**Scaling up PrEP: evidence from a policy to prevent HIV in Brazil**]{.underline}](https://bibliotecadigital.fgv.br/dspace/handle/10438/32015) -- **Dissertação de mestrado - FGV EESP** (2022)
+  if (!items.length || !yearFilter || !themeFilter || !subthemeFilter || !status || !emptyState) {
+    return;
+  }
 
-\
+  const years = [...new Set(items
+    .map((item) => item.dataset.year)
+    .filter((value) => value)
+  )].sort((a, b) => Number(b) - Number(a));
 
-### Trabalhos em andamento
+  const themes = [...new Set(items
+    .flatMap((item) => (item.dataset.themeValues || "")
+      .split("|")
+      .map((value) => value.trim())
+      .filter((value) => value))
+  )].sort((a, b) => a.localeCompare(b, "pt-BR"));
 
-------------------------------------------------------------------------
+  const subthemes = [...new Set(items
+    .flatMap((item) => (item.dataset.subthemeValues || "")
+      .split("|")
+      .map((value) => value.trim())
+      .filter((value) => value))
+  )].sort((a, b) => a.localeCompare(b, "pt-BR"));
 
--   [[**Building Future-proof Skills for Youth Employment**]{.underline}](https://www.dropbox.com/scl/fi/j4c1dlpffdeg75s94er88/pap_online_version.pdf?rlkey=a3z5ujd1hb91icbqm41dswerx&dl=0) (com Luiz Felipe Fontes e Bruno Ferman) -- Pre-results accepted at **Journal of Development Economics**
+  years.forEach((year) => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    yearFilter.appendChild(option);
+  });
 
--   [**Boletim de políticas sociais: Saúde**]{.underline} (com Fabiola Vieira, Liliane Bernardes e Sérgio Piola) - **Ipea** (2025)\
+  themes.forEach((theme) => {
+    const option = document.createElement("option");
+    option.value = theme;
+    option.textContent = theme;
+    themeFilter.appendChild(option);
+  });
 
-\
+  subthemes.forEach((subtheme) => {
+    const option = document.createElement("option");
+    option.value = subtheme;
+    option.textContent = subtheme;
+    subthemeFilter.appendChild(option);
+  });
 
-### Outros
+  const applyFilters = () => {
+    const selectedYear = yearFilter.value;
+    const selectedTheme = themeFilter.value;
+    const selectedSubtheme = subthemeFilter.value;
+    let visibleCount = 0;
 
-------------------------------------------------------------------------
+    items.forEach((item) => {
+      const matchesYear = !selectedYear || item.dataset.year === selectedYear;
+      const itemThemes = (item.dataset.themeValues || "")
+        .split("|")
+        .map((value) => value.trim())
+        .filter((value) => value);
+      const itemSubthemes = (item.dataset.subthemeValues || "")
+        .split("|")
+        .map((value) => value.trim())
+        .filter((value) => value);
+      const matchesTheme = !selectedTheme || itemThemes.includes(selectedTheme);
+      const matchesSubtheme = !selectedSubtheme || itemSubthemes.includes(selectedSubtheme);
+      const visible = matchesYear && matchesTheme && matchesSubtheme;
 
--   [[**Avaliação dos modelos regulatórios para a implementação de medidores inteligentes no sistema de distribuição brasileiro**]{.underline}](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica) (com [Siglasul](http://www.siglasul.com.br/), [PSR](https://www.psr-inc.com/pt-br/), [ANEEL](https://www.gov.br/aneel/pt-br), e [GIZ](https://www.giz.de/en/worldwide/12055.html)) – [Estudo 1](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Estudo 2](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) \| [Estudo 3](https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp) (2024)
+      item.hidden = !visible;
+      if (visible) {
+        visibleCount += 1;
+      }
+    });
 
--   [[**Violência armada e racismo (1ª edição)**]{.underline}](https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf) (com [Instituto Sou da Paz](https://soudapaz.org/)) (2022)
+    groups.forEach((group) => {
+      const hasVisibleItems = group.querySelector(".pub-item:not([hidden])");
+      group.hidden = !hasVisibleItems;
+    });
 
--   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Qualificação profissional**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2022)
+    status.textContent = `Mostrando ${visibleCount} de ${items.length} itens`;
+    emptyState.hidden = visibleCount !== 0;
+  };
 
--   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Assistência à busca por emprego**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2024)
-
--   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito**]{.underline}](https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2024)
-
--   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
-
--   [[**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho**]{.underline}](https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho) (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/)) (2025)
-
--   [**Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Treinamento ao empreendedorismo**]{.underline} (com [J-PAL](https://www.povertyactionlab.org/) e [BID](https://www.iadb.org/))
-
-<!-- -->
-
--   [[**Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161) (com Fabiola Vieira) -- **Texto para discussão - Ipea** (2025)
-
--   [[**Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)**]{.underline}](https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/) (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) -- **Publicação conjunta Ipea, Conass e Conasems** (2025)
-
--   [[**Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
-
--   [[**A representação de pessoas trans nas bases de dados oficiais do Brasil**]{.underline}](https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080) (com Alberto Filho e Felipe Pateo) -- **Texto para discussão - Ipea** (2025)
+  yearFilter.addEventListener("change", applyFilters);
+  themeFilter.addEventListener("change", applyFilters);
+  subthemeFilter.addEventListener("change", applyFilters);
+  applyFilters();
+});
+</script>
+```

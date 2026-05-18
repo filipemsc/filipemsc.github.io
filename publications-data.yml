@@ -1,0 +1,195 @@
+# Campos opcionais por item:
+# image: "images/publications/nome-da-capa.jpg"
+# image_alt: "Capa da publicação"
+
+- title: "Boletim de políticas sociais: Saúde"
+  authors: "com Fabiola Vieira, Liliane Bernardes e Sérgio Piola"
+  venue: "Ipea"
+  year: 2026
+  section: "Publicações"
+  categories: ["Saúde"]
+  subthemes: ["Acompanhamento e análise"]
+
+- title: "Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024"
+  href: "https://repositorio.ipea.gov.br/entities/publication/4631087b-cd50-4951-866e-7882e15be14d"
+  venue: "Texto para discussão - Ipea"
+  year: 2025
+  section: "Publicações"
+  categories: ["Saúde"]
+  subthemes: ["Emendas parlamentares"]
+  coverage:
+    - label: "UOL"
+      href: "https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm"
+  image: 'images/publications/td3149.jpg'
+
+- title: "A inserção e as características das pessoas trans no assalariamento formal"
+  href: "https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content"
+  authors: "com Alberto Filho e Felipe Pateo"
+  venue: "Boletim de Mercado de Trabalho - Ipea"
+  year: 2025
+  section: "Publicações"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["LGBTQIA+"]
+  coverage:
+    - label: "Estado de Minas"
+      href: "https://www.em.com.br/economia/2025/11/7283807-apenas-25-das-pessoas-trans-tem-emprego-formal.html"
+    - label: "Estado de S. Paulo"
+      href: "https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/"
+    - label: "O Globo"
+      href: "https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml"
+    - label: "O Povo"
+      href: "https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html"
+    - label: "IstoÉ Dinheiro"
+      href: "https://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal"
+    - label: "Folha de São Paulo"
+      href: "https://www1.folha.uol.com.br/amp/mercado/2026/02/tst-cria-cotas-para-mulheres-trans-em-vagas-de-empresas-prestadoras-de-servicos.shtml"
+  image: 'images/publications/bmt80.jpg'
+
+- title: "Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)"
+  href: "https://repositorio.ipea.gov.br/handle/11058/17238"
+  authors: "com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira"
+  venue: "Texto para discussão - Ipea"
+  year: 2025
+  section: "Publicações"
+  categories: ["Saúde"]
+  subthemes: ["Assistência farmacêutica"]
+  coverage:
+    - label: "Conass"
+      href: "https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/"
+    - label: "Agência Brasil"
+      href: "https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios"
+  image: 'images/publications/td3119.jpg'
+
+- title: "COVID-19 and violence against women: current knowledge, gaps, and implications for public policy"
+  href: "https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796"
+  authors: "com Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus e Noemi Kreif"
+  venue: "World Development"
+  year: 2024
+  section: "Publicações"
+  categories: ["Saúde", "Violência e criminalidade"]
+  subthemes: ["Revisão de Literatura"]
+
+- title: "The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil"
+  href: "https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474"
+  authors: "com Raul Silveira Neto e Diego Firmino"
+  venue: "Spatial Economic Analysis"
+  year: 2023
+  section: "Publicações"
+  categories: ["Violência e criminalidade"]
+
+- title: "Scaling up PrEP: evidence from a policy to prevent HIV in Brazil"
+  href: "https://bibliotecadigital.fgv.br/dspace/handle/10438/32015"
+  venue: "Dissertação de mestrado - FGV EESP"
+  year: 2022
+  section: "Publicações"
+  categories: ["Saúde"]
+  subthemes: ["LGBTQIA+"]
+  image: 'images/publications/diss.jpg'
+
+- title: "Avaliação dos modelos regulatórios para a implementação de medidores inteligentes no sistema de distribuição brasileiro"
+  href: "https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica"
+  authors: "com Siglasul, PSR, ANEEL e GIZ"
+  year: 2024
+  section: "Outros"
+  categories: ["Energia"]
+  resources:
+    - label: "Estudo 1"
+      href: "https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp"
+    - label: "Estudo 2"
+      href: "https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp"
+    - label: "Estudo 3"
+      href: "https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-2&p_p_col_count=1&_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp"
+  image: 'images/publications/psr-ssu.jpg'
+
+- title: "Violência armada e racismo (1ª edição)"
+  href: "https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf"
+  authors: "com Instituto Sou da Paz"
+  year: 2022
+  section: "Outros"
+  categories: ["Violência e criminalidade"]
+  image: 'images/publications/sdp.jpg'
+
+- title: "Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Qualificação profissional"
+  href: "https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en"
+  authors: "com J-PAL e BID"
+  year: 2022
+  section: "Outros"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/ev-qual.jpg'
+
+- title: "Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Assistência à busca por emprego"
+  href: "https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en"
+  authors: "com J-PAL e BID"
+  year: 2024
+  section: "Outros"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/ev-js.jpg'
+
+- title: "Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito"
+  href: "https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en"
+  authors: "com J-PAL e BID"
+  year: 2024
+  section: "Outros"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/ev-mc.jpg'
+
+- title: "Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade"
+  href: "https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade"
+  authors: "com J-PAL e BID"
+  year: 2025
+  section: "Outros"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/ev-inf.jpg'
+
+- title: "Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho"
+  href: "https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho"
+  authors: "com J-PAL e BID"
+  year: 2025
+  section: "Outros"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/ev-fow.jpg'
+
+- title: "Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)"
+  href: "https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161"
+  authors: "com Fabiola Vieira"
+  venue: "Texto para discussão - Ipea"
+  year: 2025
+  section: "Outros"
+  categories: []
+  subthemes: ["Emendas parlamentares"]
+  image: 'images/publications/td3150.jpg'
+
+- title: "Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)"
+  href: "https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/"
+  authors: "com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira"
+  venue: "Publicação conjunta Ipea, Conass e Conasems"
+  year: 2025
+  section: "Outros"
+  categories: ["Saúde"]
+  subthemes: ["Assistência farmacêutica"]
+  image: 'images/publications/af-sintese.jpg'
+
+- title: "Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans"
+  href: "https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c"
+  authors: "com Alberto Filho e Felipe Pateo"
+  venue: "Texto para discussão - Ipea"
+  year: 2025
+  section: "Outros"
+  categories: []
+  subthemes: ["LGBTQIA+"]
+  image: 'images/publications/td3169.jpg'
+
+- title: "A representação de pessoas trans nas bases de dados oficiais do Brasil"
+  href: "https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080"
+  authors: "com Alberto Filho e Felipe Pateo"
+  venue: "Texto para discussão - Ipea"
+  year: 2025
+  section: "Outros"
+  categories: []
+  subthemes: ["LGBTQIA+"]
+  image: 'images/publications/td3172.jpg'

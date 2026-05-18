@@ -67,7 +67,7 @@ nav.navbar {
 }
 
 nav.navbar .nav-link {
-  color: var(--site-accent) !important;
+  color: var(--site-text) !important;
   font-size: 0.94rem;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -79,13 +79,13 @@ nav.navbar .nav-link {
 
 nav.navbar .nav-link:hover,
 nav.navbar .nav-link:focus {
-  color: var(--site-accent-strong) !important;
+  color: var(--site-text) !important;
 }
 
 nav.navbar .nav-link.active,
 nav.navbar .nav-link[aria-current="page"] {
   background: transparent !important;
-  color: var(--site-accent-strong) !important;
+  color: var(--site-text) !important;
   font-weight: 500;
 }
 
@@ -389,5 +389,201 @@ img {
   a {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+.pub-filters {
+  align-items: end;
+  display: grid;
+  gap: 0.9rem 1rem;
+  grid-template-columns: minmax(0, 140px) minmax(0, 220px) minmax(0, 220px) 1fr;
+  margin-bottom: 2rem;
+}
+
+.pub-filters__group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pub-filters__group label {
+  color: var(--site-muted);
+  font-size: 0.88rem;
+}
+
+.pub-filters__group select {
+  appearance: none;
+  background: #ffffff;
+  border: 1px solid var(--site-divider);
+  border-radius: 0.4rem;
+  color: var(--site-text);
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  padding: 0.6rem 0.75rem;
+}
+
+.pub-filters__group select:focus {
+  border-color: rgba(31, 75, 122, 0.4);
+  box-shadow: 0 0 0 0.18rem rgba(31, 75, 122, 0.08);
+  outline: none;
+}
+
+.pub-filters__status,
+.pub-empty-state {
+  color: var(--site-muted);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.pub-empty-state {
+  margin-bottom: 1.5rem;
+}
+
+.pub-list {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.pub-year-group {
+  display: grid;
+  gap: 1.1rem;
+}
+
+.pub-year-group__items {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.pub-year-heading {
+  border-top: 1px solid var(--site-divider);
+  font-size: 1.22rem;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 1.1rem;
+}
+
+.pub-year-group:first-child .pub-year-heading {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.pub-item {
+  align-items: start;
+  border-top: 1px solid var(--site-divider);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 106px minmax(0, 1fr);
+  padding-top: 1.4rem;
+}
+
+.pub-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.pub-item__cover {
+  width: 106px;
+}
+
+.pub-item__cover-image,
+.pub-item__cover-placeholder {
+  aspect-ratio: 0.72;
+  border: 1px solid var(--site-divider);
+  border-radius: 0.4rem;
+  display: block;
+  width: 100%;
+}
+
+.pub-item__cover-image {
+  background: #f5f7fa;
+  object-fit: cover;
+}
+
+.pub-item__cover-placeholder {
+  background: linear-gradient(180deg, #eef3f8 0%, #dde6ef 100%);
+}
+
+.pub-item__body {
+  min-width: 0;
+}
+
+.pub-item__title {
+  font-size: 1.08rem;
+  line-height: 1.35;
+  margin: 0 0 0.35rem;
+}
+
+.pub-item__title a,
+.pub-item__title span {
+  color: var(--site-text);
+  text-decoration: none;
+}
+
+.pub-item__title a:hover {
+  color: var(--site-accent-strong);
+  text-decoration: underline;
+}
+
+.pub-item__authors,
+.pub-item__citation,
+.pub-item__resources,
+.pub-item__coverage {
+  font-size: 0.96rem;
+  margin: 0 0 0.45rem;
+}
+
+.pub-item__authors {
+  color: var(--site-muted);
+}
+
+.pub-item__venue {
+  font-weight: 500;
+}
+
+.pub-item__taxonomy {
+  margin: 0.75rem 0;
+}
+
+.pub-item__tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-item__tag {
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0.16rem 0.45rem;
+}
+
+.pub-item__tag--theme {
+  background: rgba(31, 75, 122, 0.1);
+  color: var(--site-accent-strong);
+}
+
+.pub-item__tag--subtheme {
+  background: rgba(34, 38, 43, 0.08);
+  color: var(--site-muted);
+}
+
+@media screen and (max-width: 767px) {
+  .pub-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-item {
+    grid-template-columns: 80px minmax(0, 1fr);
+  }
+
+  .pub-item__cover {
+    width: 80px;
   }
 }

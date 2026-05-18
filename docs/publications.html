@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-venue','listing-year','listing-section','listing-categories','listing-subthemes','listing-href','listing-coverage','listing-image','listing-resources',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-year-sort'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-venue","listing-year","listing-section","listing-categories","listing-subthemes","listing-href","listing-coverage","listing-image","listing-resources"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications-listing'] = new List('listing-publications-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XJLNF5SHSC"></script>
 
 <script type="text/javascript">
@@ -75,6 +106,35 @@ gtag('js', new Date());
 gtag('config', 'G-XJLNF5SHSC', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -141,57 +201,1137 @@ gtag('config', 'G-XJLNF5SHSC', { 'anonymize_ip': true});
 </header>
 
 
-<section id="publicações" class="level3">
-<h3 class="anchored" data-anchor-id="publicações">Publicações</h3>
-<hr>
-<ul>
-<li><p><a href="https://repositorio.ipea.gov.br/entities/publication/4631087b-cd50-4951-866e-7882e15be14d"><u><strong>Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024</strong></u></a> – <strong>Texto para discussão - Ipea</strong> (2025)<br>
-Cobertura: <a href="https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm">UOL</a></p></li>
-<li><p><a href="https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content"><u><strong>A inserção e as características das pessoas trans no assalariamento formal</strong></u></a> (com Alberto Filho e Felipe Pateo) – <strong>Boletim de Mercado de Trabalho - Ipea</strong> (2025)<br>
-Cobertura: <a href="https://www.em.com.br/economia/2025/11/7283807-apenas-25-das-pessoas-trans-tem-emprego-formal.html">Estado de Minas</a>, <a href="https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/">Estado de S. Paulo</a>, <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml">O Globo</a>, <a href="https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html">O Povo</a>, <a href="ttps://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal">IstoÉ Dinheiro</a>, <a href="https://www1.folha.uol.com.br/amp/mercado/2026/02/tst-cria-cotas-para-mulheres-trans-em-vagas-de-empresas-prestadoras-de-servicos.shtml">Folha de São Paulo</a></p></li>
-<li><p><a href="https://repositorio.ipea.gov.br/handle/11058/17238"><u><strong>Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)</strong></u></a> (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) – <strong>Texto para discussão - Ipea</strong> (2025)<br>
-Cobertura: <a href="https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/">Conass</a>, <a href="https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios">Agência Brasil</a></p></li>
-<li><p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796"><u><strong>COVID-19 and violence against women: current knowledge, gaps, and implications for public policy</strong></u></a> (com Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus, e Noemi Kreif) – <strong>World Development</strong> (2024)</p></li>
-<li><p><a href="https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474"><u><strong>The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil</strong></u></a> (com Raul Silveira Neto e Diego Firmino) – <strong>Spatial Economic Analysis</strong> (2023)</p></li>
-<li><p><a href="https://bibliotecadigital.fgv.br/dspace/handle/10438/32015"><u><strong>Scaling up PrEP: evidence from a policy to prevent HIV in Brazil</strong></u></a> – <strong>Dissertação de mestrado - FGV EESP</strong> (2022)</p></li>
-</ul>
-<p><br>
-</p>
-</section>
-<section id="trabalhos-em-andamento" class="level3">
-<h3 class="anchored" data-anchor-id="trabalhos-em-andamento">Trabalhos em andamento</h3>
-<hr>
-<ul>
-<li><p><a href="https://www.dropbox.com/scl/fi/j4c1dlpffdeg75s94er88/pap_online_version.pdf?rlkey=a3z5ujd1hb91icbqm41dswerx&amp;dl=0"><u><strong>Building Future-proof Skills for Youth Employment</strong></u></a> (com Luiz Felipe Fontes e Bruno Ferman) – Pre-results accepted at <strong>Journal of Development Economics</strong></p></li>
-<li><p><u><strong>Boletim de políticas sociais: Saúde</strong></u> (com Fabiola Vieira, Liliane Bernardes e Sérgio Piola) - <strong>Ipea</strong> (2025)<br>
-</p></li>
-</ul>
-<p><br>
-</p>
-</section>
-<section id="outros" class="level3">
-<h3 class="anchored" data-anchor-id="outros">Outros</h3>
-<hr>
-<ul>
-<li><p><a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&amp;p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&amp;_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica"><u><strong>Avaliação dos modelos regulatórios para a implementação de medidores inteligentes no sistema de distribuição brasileiro</strong></u></a> (com <a href="http://www.siglasul.com.br/">Siglasul</a>, <a href="https://www.psr-inc.com/pt-br/">PSR</a>, <a href="https://www.gov.br/aneel/pt-br">ANEEL</a>, e <a href="https://www.giz.de/en/worldwide/12055.html">GIZ</a>) – <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 1</a> | <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 2</a> | <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 3</a> (2024)</p></li>
-<li><p><a href="https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf"><u><strong>Violência armada e racismo (1ª edição)</strong></u></a> (com <a href="https://soudapaz.org/">Instituto Sou da Paz</a>) (2022)</p></li>
-<li><p><a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en"><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Qualificação profissional</strong></u></a> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>) (2022)</p></li>
-<li><p><a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en"><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Assistência à busca por emprego</strong></u></a> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>) (2024)</p></li>
-<li><p><a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en"><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito</strong></u></a> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>) (2024)</p></li>
-<li><p><a href="https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade"><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade</strong></u></a> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>) (2025)</p></li>
-<li><p><a href="https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho"><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho</strong></u></a> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>) (2025)</p></li>
-<li><p><u><strong>Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Treinamento ao empreendedorismo</strong></u> (com <a href="https://www.povertyactionlab.org/">J-PAL</a> e <a href="https://www.iadb.org/">BID</a>)</p></li>
-</ul>
-<!-- -->
-<ul>
-<li><p><a href="https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161"><u><strong>Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)</strong></u></a> (com Fabiola Vieira) – <strong>Texto para discussão - Ipea</strong> (2025)</p></li>
-<li><p><a href="https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/"><u><strong>Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)</strong></u></a> (com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira) – <strong>Publicação conjunta Ipea, Conass e Conasems</strong> (2025)</p></li>
-<li><p><a href="https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c"><u><strong>Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans</strong></u></a> (com Alberto Filho e Felipe Pateo) – <strong>Texto para discussão - Ipea</strong> (2025)</p></li>
-<li><p><a href="https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080"><u><strong>A representação de pessoas trans nas bases de dados oficiais do Brasil</strong></u></a> (com Alberto Filho e Felipe Pateo) – <strong>Texto para discussão - Ipea</strong> (2025)</p></li>
-</ul>
+<div class="pub-filters" aria-label="Filtros de publicações">
+  <div class="pub-filters__group">
+    <label for="pub-year-filter">Ano</label>
+    <select id="pub-year-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
+
+  <div class="pub-filters__group">
+    <label for="pub-theme-filter">Tema</label>
+    <select id="pub-theme-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
+
+  <div class="pub-filters__group">
+    <label for="pub-subtheme-filter">Subtema</label>
+    <select id="pub-subtheme-filter">
+      <option value="">Todos</option>
+    </select>
+  </div>
+
+  <p class="pub-filters__status" id="pub-filters-status" aria-live="polite"></p>
+</div>
+
+<p class="pub-empty-state" id="pub-empty-state" hidden="">Nenhum item corresponde aos filtros selecionados.</p>
+<div id="listing-publications-listing" class="quarto-listing quarto-listing-container-custom">
+
+<div class="pub-list list">
+
+  
+  
+    
+    
+    <section class="pub-year-group" data-year-group="2026">
+      <h2 class="pub-year-heading anchored">2026</h2>
+      <div class="pub-year-group__items">
+  
+
+  <article class="pub-item" data-index="0" data-categories="U2ElQzMlQkFkZQ==" data-listing-year-sort="2026" data-year="2026" data-theme-values="Saúde" data-subtheme-values="Acompanhamento e análise">
+    <div class="pub-item__cover">
+      
+        <div class="pub-item__cover-placeholder" aria-hidden="true"></div>
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <span>Boletim de políticas sociais: Saúde</span>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Fabiola Vieira, Liliane Bernardes e Sérgio Piola</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Acompanhamento e análise</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+    
+        </div>
+      </section>
+    
+    
+    <section class="pub-year-group" data-year-group="2025">
+      <h2 class="pub-year-heading anchored">2025</h2>
+      <div class="pub-year-group__items">
+  
+
+  <article class="pub-item" data-index="1" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2025" data-year="2025" data-theme-values="Mercado de trabalho" data-subtheme-values="LGBTQIA+">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/bmt80.jpg" alt="Capa de A inserção e as características das pessoas trans no assalariamento formal" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content">A inserção e as características das pessoas trans no assalariamento formal</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Alberto Filho e Felipe Pateo</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Boletim de Mercado de Trabalho - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">LGBTQIA+</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+        <p class="pub-item__coverage">
+          Cobertura:
+          
+            
+            <a href="https://www.em.com.br/economia/2025/11/7283807-apenas-25-das-pessoas-trans-tem-emprego-formal.html">Estado de Minas</a>
+          
+            , 
+            <a href="https://www.estadao.com.br/economia/pedro-fernando-nery/discriminacao-contra-lgbtqia-pode-nao-aparecer-nos-dados-economicos/">Estado de S. Paulo</a>
+          
+            , 
+            <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/10/apenas-25percent-das-pessoas-trans-tem-emprego-formal-no-brasil-mostra-estudo-do-ipea.ghtml">O Globo</a>
+          
+            , 
+            <a href="https://www.opovo.com.br/noticias/economia/2025/10/22/amp/pessoas-trans-ganham-32-menos-no-mercado-formal-diz-ipea.html">O Povo</a>
+          
+            , 
+            <a href="https://istoedinheiro.com.br/pessoas-trans-recebem-menos-trabalho-formal">IstoÉ Dinheiro</a>
+          
+            , 
+            <a href="https://www1.folha.uol.com.br/amp/mercado/2026/02/tst-cria-cotas-para-mulheres-trans-em-vagas-de-empresas-prestadoras-de-servicos.shtml">Folha de São Paulo</a>
+          
+        </p>
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="2" data-categories="U2ElQzMlQkFkZQ==" data-listing-year-sort="2025" data-year="2025" data-theme-values="Saúde" data-subtheme-values="Emendas parlamentares">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/td3149.jpg" alt="Capa de Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/entities/publication/4631087b-cd50-4951-866e-7882e15be14d">Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024</a>
+        
+      </h3>
+
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Texto para discussão - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Emendas parlamentares</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+        <p class="pub-item__coverage">
+          Cobertura:
+          
+            
+            <a href="https://noticias.uol.com.br/colunas/natalia-portinari/2025/08/11/hospitais-particulares-recebem-30-de-emendas-do-atendimento-especializado.htm">UOL</a>
+          
+        </p>
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="3" data-categories="U2ElQzMlQkFkZQ==" data-listing-year-sort="2025" data-year="2025" data-theme-values="Saúde" data-subtheme-values="Assistência farmacêutica">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/td3119.jpg" alt="Capa de Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/handle/11058/17238">Pesquisa Assistência Farmacêutica no SUS: gasto em medicamentos judicializados de estados e municípios participantes (2019-2023)</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Texto para discussão - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Assistência farmacêutica</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+        <p class="pub-item__coverage">
+          Cobertura:
+          
+            
+            <a href="https://www.conass.org.br/judicializacao-corresponde-a-quase-33-dos-gastos-em-medicamentos-de-estados-brasileiros/">Conass</a>
+          
+            , 
+            <a href="https://agenciabrasil.ebc.com.br/saude/noticia/2025-05/judicializacao-representa-um-terco-dos-gastos-estaduais-com-remedios">Agência Brasil</a>
+          
+        </p>
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="4" data-categories="" data-listing-year-sort="2025" data-year="2025" data-theme-values="" data-subtheme-values="LGBTQIA+">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/td3172.jpg" alt="Capa de A representação de pessoas trans nas bases de dados oficiais do Brasil" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/entities/publication/906e4beb-eac9-476a-95db-3eb1e7be3080">A representação de pessoas trans nas bases de dados oficiais do Brasil</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Alberto Filho e Felipe Pateo</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Texto para discussão - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">LGBTQIA+</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="5" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2025" data-year="2025" data-theme-values="Mercado de trabalho" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/ev-fow.jpg" alt="Capa de Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-futuro-do-trabalho">Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Futuro do trabalho</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com J-PAL e BID</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="6" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2025" data-year="2025" data-theme-values="Mercado de trabalho" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/ev-inf.jpg" alt="Capa de Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://publications.iadb.org/pt/evidencias-sobre-politicas-de-mercado-de-trabalho-e-implicacoes-para-o-brasil-informalidade">Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Informalidade</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com J-PAL e BID</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="7" data-categories="" data-listing-year-sort="2025" data-year="2025" data-theme-values="" data-subtheme-values="LGBTQIA+">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/td3169.jpg" alt="Capa de Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/entities/publication/58218fab-c3b9-40c9-a8d5-99371c87aa1c">Identidades invisíveis? O dilema da (in)visibilidade estatística da população trans</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Alberto Filho e Felipe Pateo</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Texto para discussão - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">LGBTQIA+</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="8" data-categories="U2ElQzMlQkFkZQ==" data-listing-year-sort="2025" data-year="2025" data-theme-values="Saúde" data-subtheme-values="Assistência farmacêutica">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/af-sintese.jpg" alt="Capa de Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.conass.org.br/biblioteca/pesquisa-assistencia-farmaceutica-no-sus/">Pesquisa Assistência Farmacêutica no SUS: uma síntese dos principais resultados para gestores de saúde (2019-2023)</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Fabiola Vieira, Elton Chaves, Karen Costa, Heber Bernarde, Liliane Bernardes e Blenda Pereira</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Publicação conjunta Ipea, Conass e Conasems</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Assistência farmacêutica</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="9" data-categories="" data-listing-year-sort="2025" data-year="2025" data-theme-values="" data-subtheme-values="Emendas parlamentares">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/td3150.jpg" alt="Capa de Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://repositorio.ipea.gov.br/entities/publication/a34e8c7f-2282-4789-be78-198b0122a161">Qualidade da informação sobre recursos federais alocados por emendas parlamentares (2014-2024)</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Fabiola Vieira</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Texto para discussão - Ipea</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Emendas parlamentares</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+    
+        </div>
+      </section>
+    
+    
+    <section class="pub-year-group" data-year-group="2024">
+      <h2 class="pub-year-heading anchored">2024</h2>
+      <div class="pub-year-group__items">
+  
+
+  <article class="pub-item" data-index="10" data-categories="U2ElQzMlQkFkZSUyQ1Zpb2wlQzMlQUFuY2lhJTIwZSUyMGNyaW1pbmFsaWRhZGU=" data-listing-year-sort="2024" data-year="2024" data-theme-values="Saúde|Violência e criminalidade" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <div class="pub-item__cover-placeholder" aria-hidden="true"></div>
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S0305750X23002796">COVID-19 and violence against women: current knowledge, gaps, and implications for public policy</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Paula Pereda, Maria Dolores Diaz, Fabiana Rocha, Rodrigo Serra, Isadora Árabe, Samuel Lordemus e Noemi Kreif</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">World Development</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Violência e criminalidade</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="11" data-categories="RW5lcmdpYQ==" data-listing-year-sort="2024" data-year="2024" data-theme-values="Energia" data-subtheme-values="">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/psr-ssu.jpg" alt="Capa de Avaliação dos modelos regulatórios para a implementação de medidores inteligentes no sistema de distribuição brasileiro" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_auth=nRLZfCTs&amp;p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideParticipacaoPublica=3869&amp;_participacaopublica_WAR_participacaopublicaportlet_javax.portlet.action=visualizarParticipacaoPublica">Avaliação dos modelos regulatórios para a implementação de medidores inteligentes no sistema de distribuição brasileiro</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Siglasul, PSR, ANEEL e GIZ</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Energia</li>
+              
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+        <p class="pub-item__resources">
+          Materiais:
+          
+            
+            <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53471&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 1</a>
+          
+            , 
+            <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53472&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 2</a>
+          
+            , 
+            <a href="https://antigo.aneel.gov.br/web/guest/tomadas-de-subsidios?p_p_id=participacaopublica_WAR_participacaopublicaportlet&amp;p_p_lifecycle=2&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_cacheability=cacheLevelPage&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;_participacaopublica_WAR_participacaopublicaportlet_ideDocumento=53473&amp;_participacaopublica_WAR_participacaopublicaportlet_tipoFaseReuniao=fase&amp;_participacaopublica_WAR_participacaopublicaportlet_jspPage=%2Fhtml%2Fpp%2Fvisualizar.jsp">Estudo 3</a>
+          
+        </p>
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="12" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2024" data-year="2024" data-theme-values="Mercado de trabalho" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/ev-js.jpg" alt="Capa de Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Assistência à busca por emprego" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-search-assistance?lang=en">Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Assistência à busca por emprego</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com J-PAL e BID</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="13" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2024" data-year="2024" data-theme-values="Mercado de trabalho" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/ev-mc.jpg" alt="Capa de Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-microcredit?lang=en">Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Microcrédito</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com J-PAL e BID</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+    
+        </div>
+      </section>
+    
+    
+    <section class="pub-year-group" data-year-group="2023">
+      <h2 class="pub-year-heading anchored">2023</h2>
+      <div class="pub-year-group__items">
+  
+
+  <article class="pub-item" data-index="14" data-categories="VmlvbCVDMyVBQW5jaWElMjBlJTIwY3JpbWluYWxpZGFkZQ==" data-listing-year-sort="2023" data-year="2023" data-theme-values="Violência e criminalidade" data-subtheme-values="">
+    <div class="pub-item__cover">
+      
+        <div class="pub-item__cover-placeholder" aria-hidden="true"></div>
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474">The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Raul Silveira Neto e Diego Firmino</p>
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Spatial Economic Analysis</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Violência e criminalidade</li>
+              
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+    
+        </div>
+      </section>
+    
+    
+    <section class="pub-year-group" data-year-group="2022">
+      <h2 class="pub-year-heading anchored">2022</h2>
+      <div class="pub-year-group__items">
+  
+
+  <article class="pub-item" data-index="15" data-categories="U2ElQzMlQkFkZQ==" data-listing-year-sort="2022" data-year="2022" data-theme-values="Saúde" data-subtheme-values="LGBTQIA+">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/diss.jpg" alt="Capa de Scaling up PrEP: evidence from a policy to prevent HIV in Brazil" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://bibliotecadigital.fgv.br/dspace/handle/10438/32015">Scaling up PrEP: evidence from a policy to prevent HIV in Brazil</a>
+        
+      </h3>
+
+      
+
+      
+        <p class="pub-item__citation">
+          
+            <span class="pub-item__venue listing-venue">Dissertação de mestrado - FGV EESP</span>
+          
+          
+        </p>
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Saúde</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">LGBTQIA+</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="16" data-categories="TWVyY2FkbyUyMGRlJTIwdHJhYmFsaG8=" data-listing-year-sort="2022" data-year="2022" data-theme-values="Mercado de trabalho" data-subtheme-values="Revisão de Literatura">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/ev-qual.jpg" alt="Capa de Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Qualificação profissional" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://www.povertyactionlab.org/publication/evidence-labor-market-policies-and-implications-brazil-job-training-programs?lang=en">Evidências sobre políticas de mercado de trabalho e implicações para o Brasil: Qualificação profissional</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com J-PAL e BID</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Mercado de trabalho</li>
+              
+            
+
+            
+              
+                <li class="pub-item__tag pub-item__tag--subtheme">Revisão de Literatura</li>
+              
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+  
+  
+
+  <article class="pub-item" data-index="17" data-categories="VmlvbCVDMyVBQW5jaWElMjBlJTIwY3JpbWluYWxpZGFkZQ==" data-listing-year-sort="2022" data-year="2022" data-theme-values="Violência e criminalidade" data-subtheme-values="">
+    <div class="pub-item__cover">
+      
+        <img class="pub-item__cover-image listing-image" src="images/publications/sdp.jpg" alt="Capa de Violência armada e racismo (1ª edição)" loading="lazy">
+      
+    </div>
+
+    <div class="pub-item__body">
+      <h3 class="pub-item__title listing-title anchored">
+        
+          <a href="https://soudapaz.org/wp-content/uploads/2022/05/Firearm_violence_and_racism-1.pdf">Violência armada e racismo (1ª edição)</a>
+        
+      </h3>
+
+      
+        <p class="pub-item__authors listing-authors">com Instituto Sou da Paz</p>
+      
+
+      
+
+      
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            
+              
+                <li class="pub-item__tag pub-item__tag--theme listing-categories">Violência e criminalidade</li>
+              
+            
+
+            
+          </ul>
+        </div>
+      
+
+      
+
+      
+    </div>
+  </article>
+
+      </div>
+    </section>
+
+</div>
+<div class="listing-no-matching d-none">
+Sem itens correspondentes
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const items = Array.from(document.querySelectorAll(".pub-item"));
+  const groups = Array.from(document.querySelectorAll(".pub-year-group"));
+  const yearFilter = document.getElementById("pub-year-filter");
+  const themeFilter = document.getElementById("pub-theme-filter");
+  const subthemeFilter = document.getElementById("pub-subtheme-filter");
+  const status = document.getElementById("pub-filters-status");
+  const emptyState = document.getElementById("pub-empty-state");
+
+  if (!items.length || !yearFilter || !themeFilter || !subthemeFilter || !status || !emptyState) {
+    return;
+  }
+
+  const years = [...new Set(items
+    .map((item) => item.dataset.year)
+    .filter((value) => value)
+  )].sort((a, b) => Number(b) - Number(a));
+
+  const themes = [...new Set(items
+    .flatMap((item) => (item.dataset.themeValues || "")
+      .split("|")
+      .map((value) => value.trim())
+      .filter((value) => value))
+  )].sort((a, b) => a.localeCompare(b, "pt-BR"));
+
+  const subthemes = [...new Set(items
+    .flatMap((item) => (item.dataset.subthemeValues || "")
+      .split("|")
+      .map((value) => value.trim())
+      .filter((value) => value))
+  )].sort((a, b) => a.localeCompare(b, "pt-BR"));
+
+  years.forEach((year) => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    yearFilter.appendChild(option);
+  });
+
+  themes.forEach((theme) => {
+    const option = document.createElement("option");
+    option.value = theme;
+    option.textContent = theme;
+    themeFilter.appendChild(option);
+  });
+
+  subthemes.forEach((subtheme) => {
+    const option = document.createElement("option");
+    option.value = subtheme;
+    option.textContent = subtheme;
+    subthemeFilter.appendChild(option);
+  });
+
+  const applyFilters = () => {
+    const selectedYear = yearFilter.value;
+    const selectedTheme = themeFilter.value;
+    const selectedSubtheme = subthemeFilter.value;
+    let visibleCount = 0;
+
+    items.forEach((item) => {
+      const matchesYear = !selectedYear || item.dataset.year === selectedYear;
+      const itemThemes = (item.dataset.themeValues || "")
+        .split("|")
+        .map((value) => value.trim())
+        .filter((value) => value);
+      const itemSubthemes = (item.dataset.subthemeValues || "")
+        .split("|")
+        .map((value) => value.trim())
+        .filter((value) => value);
+      const matchesTheme = !selectedTheme || itemThemes.includes(selectedTheme);
+      const matchesSubtheme = !selectedSubtheme || itemSubthemes.includes(selectedSubtheme);
+      const visible = matchesYear && matchesTheme && matchesSubtheme;
+
+      item.hidden = !visible;
+      if (visible) {
+        visibleCount += 1;
+      }
+    });
+
+    groups.forEach((group) => {
+      const hasVisibleItems = group.querySelector(".pub-item:not([hidden])");
+      group.hidden = !hasVisibleItems;
+    });
+
+    status.textContent = `Mostrando ${visibleCount} de ${items.length} itens`;
+    emptyState.hidden = visibleCount !== 0;
+  };
+
+  yearFilter.addEventListener("change", applyFilters);
+  themeFilter.addEventListener("change", applyFilters);
+  subthemeFilter.addEventListener("change", applyFilters);
+  applyFilters();
+});
+</script>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
