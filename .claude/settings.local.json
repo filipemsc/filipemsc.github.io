@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:brunodcdo.com.br)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,30 +1,28 @@
 ---
 title: ""
 image: images/profile2.jpg
+body-classes: home-page
 ---
 
-:::::: columns
-::: {.column width="30%"}
-# 
+::::::: home-hero
+::::: home-hero__content
+<div class="home-hero__name">Filipe Cavalcanti</div>
 
-# 
+Olá!
 
-![](images/profile2.jpg){style="float: left; margin-right: 70px;" fig-align="right" width="295"}
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="60%"}
-# Filipe Cavalcanti
-
-Olá! Eu sou um economista especializado em análise de dados e avaliação de políticas públicas.
+Sou economista especializado em análise de dados e avaliação de políticas públicas.
 
 Tenho interesse em temas dentro da microeconomia aplicada, particularmente aqueles relacionados à economia da saúde e economia do trabalho.
 
 Trabalho no [IPEA](https://www.ipea.gov.br/portal/) e sou doutorando em economia na [FGV EESP](https://eesp.fgv.br/).
+<br><br>
 
-Contato: [filipe.cavalcanti\@ipea.gov.br](mailto:filipe.cavalcanti@ipea.gov.br)
+::: {.home-hero__social aria-label="Perfis e redes"}
+<a class="home-hero__social-link" href="https://github.com/filipemsc" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"> <i class="bi bi-github"></i> </a> <a class="home-hero__social-link" href="https://scholar.google.com/citations?user=5P15ZjUAAAAJ&hl=pt-BR&oi=ao" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"> <i class="ai ai-google-scholar"></i> </a> <a class="home-hero__social-link" href="https://orcid.org/0000-0001-5661-4333" target="_blank" rel="noopener noreferrer" aria-label="ORCID" title="ORCID"> <i class="ai ai-orcid"></i> </a> <a class="home-hero__social-link" href="https://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" rel="noopener noreferrer" aria-label="Lattes" title="Lattes"> <i class="ai ai-lattes"></i> </a> <a class="home-hero__social-link" href="https://br.linkedin.com/in/filipe-cavalcanti" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"> <i class="bi bi-linkedin"></i> </a>
 :::
-::::::
+:::::
+
+::: home-hero__media
+![](images/profile2.jpg){.home-hero__image fig-alt="Retrato de Filipe Cavalcanti"}
+:::
+:::::::
