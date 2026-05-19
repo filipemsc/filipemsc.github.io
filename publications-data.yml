@@ -2,13 +2,36 @@
 # image: "images/publications/nome-da-capa.jpg"
 # image_alt: "Capa da publicação"
 
-- title: "Boletim de políticas sociais: Saúde"
-  authors: "com Fabiola Vieira, Liliane Bernardes e Sérgio Piola"
+- title: "Outras formas de inserção das pessoas trans no mercado de trabalho : microempreendedorismo individual e serviço público"
+  href: "https://repositorio.ipea.gov.br/entities/publication/ac8fe62b-886d-4476-afaa-25db440b0276"
+  authors: "com Alberto Filho e Felipe Pateo"
+  venue: "Boletim de Mercado de Trabalho - Ipea (n. 81)"
+  year: 2026
+  section: "Publicações"
+  categories: ["Mercado de trabalho"]
+  subthemes: ["LGBTQIA+"]
+  image: 'images/publications/bmt81.jpg'
+  
+- title: "Repasses federais por emendas parlamentares: reconfiguração do financiamento municipal da saúde?"
+  href: https://repositorio.ipea.gov.br/entities/publication/ed33506b-26ee-4f03-ae3d-e5927c820ed8
+  authors: "com Fabiola Vieira"
   venue: "Ipea"
   year: 2026
   section: "Publicações"
   categories: ["Saúde"]
+  subthemes: ["Emendas parlamentares"]
+  image: 'images/publications/td3203.jpg'
+
+
+- title: "Boletim de políticas sociais: Saúde (volume 32)"
+  href: https://repositorio.ipea.gov.br/entities/journalissue/27bf2570-4141-453e-805a-d6db28bd3f04
+  authors: "com Fabiola Vieira, Liliane Bernardes e Sérgio Piola"
+  venue: "Texto para discussão - Ipea"
+  year: 2026
+  section: "Publicações"
+  categories: ["Saúde"]
   subthemes: ["Acompanhamento e análise"]
+  image: 'images/publications/bps32.jpg'
 
 - title: "Financiamento do SUS e emendas parlamentares: uma análise da desigualdade de transferências de incremento ao custeio no período de 2019 a 2024"
   href: "https://repositorio.ipea.gov.br/entities/publication/4631087b-cd50-4951-866e-7882e15be14d"
@@ -25,7 +48,7 @@
 - title: "A inserção e as características das pessoas trans no assalariamento formal"
   href: "https://repositorio.ipea.gov.br/server/api/core/bitstreams/09d317ff-dd39-4e89-af8f-685319b52baf/content"
   authors: "com Alberto Filho e Felipe Pateo"
-  venue: "Boletim de Mercado de Trabalho - Ipea"
+  venue: "Boletim de Mercado de Trabalho - Ipea (n. 80)"
   year: 2025
   section: "Publicações"
   categories: ["Mercado de trabalho"]
@@ -68,6 +91,7 @@
   section: "Publicações"
   categories: ["Saúde", "Violência e criminalidade"]
   subthemes: ["Revisão de Literatura"]
+  image: 'images/publications/wd-covid.jpg'
 
 - title: "The spatial association between drugs and urban violence: an analysis for the Metropolitan Region of Recife, Brazil"
   href: "https://www.tandfonline.com/doi/abs/10.1080/17421772.2023.2186474"
@@ -76,6 +100,7 @@
   year: 2023
   section: "Publicações"
   categories: ["Violência e criminalidade"]
+  image: 'images/publications/spa.jpg'
 
 - title: "Scaling up PrEP: evidence from a policy to prevent HIV in Brazil"
   href: "https://bibliotecadigital.fgv.br/dspace/handle/10438/32015"

@@ -62,6 +62,24 @@ let currentYear = null;
     </div>
 
     <div class="pub-item__body">
+      <% if ((Array.isArray(item.categories) && item.categories.length) || (Array.isArray(item.subthemes) && item.subthemes.length)) { %>
+        <div class="pub-item__taxonomy">
+          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
+            <% if (Array.isArray(item.categories) && item.categories.length) { %>
+              <% item.categories.forEach((category) => { %>
+                <li class="pub-item__tag pub-item__tag--theme listing-categories"><%= category %></li>
+              <% }) %>
+            <% } %>
+
+            <% if (Array.isArray(item.subthemes) && item.subthemes.length) { %>
+              <% item.subthemes.forEach((subtheme) => { %>
+                <li class="pub-item__tag pub-item__tag--subtheme"><%= subtheme %></li>
+              <% }) %>
+            <% } %>
+          </ul>
+        </div>
+      <% } %>
+
       <h3 class="pub-item__title listing-title">
         <% if (item.href) { %>
           <a href="<%- item.href %>"><%= item.title %></a>
@@ -83,24 +101,6 @@ let currentYear = null;
             <span class="pub-item__note"><%= item.venue ? ' · ' : '' %><%= item.note %></span>
           <% } %>
         </p>
-      <% } %>
-
-      <% if ((Array.isArray(item.categories) && item.categories.length) || (Array.isArray(item.subthemes) && item.subthemes.length)) { %>
-        <div class="pub-item__taxonomy">
-          <ul class="pub-item__tag-list" aria-label="Temas e subtemas">
-            <% if (Array.isArray(item.categories) && item.categories.length) { %>
-              <% item.categories.forEach((category) => { %>
-                <li class="pub-item__tag pub-item__tag--theme listing-categories"><%= category %></li>
-              <% }) %>
-            <% } %>
-
-            <% if (Array.isArray(item.subthemes) && item.subthemes.length) { %>
-              <% item.subthemes.forEach((subtheme) => { %>
-                <li class="pub-item__tag pub-item__tag--subtheme"><%= subtheme %></li>
-              <% }) %>
-            <% } %>
-          </ul>
-        </div>
       <% } %>
 
       <% if (Array.isArray(item.resources) && item.resources.length) { %>
